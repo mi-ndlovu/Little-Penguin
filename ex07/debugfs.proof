@@ -1,0 +1,8 @@
+#ls /sys/kernel/debug/fortytwo/
+foo
+id
+jiffies
+#dmesg | tail -3
+[ 7609.402906] Hello World!!!
+[ 7656.522711] Cleaning the module.
+[ 7656.523045] kernel buffer is: debugfs driver is working.

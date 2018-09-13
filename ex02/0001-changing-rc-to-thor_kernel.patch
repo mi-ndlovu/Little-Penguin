@@ -1,0 +1,25 @@
+From 462e255fca8620e1000e837d3bd91e846a071b51 Mon Sep 17 00:00:00 2001
+From: mndlovu <mndlovu@gmail.com>
+Date: Tue, 11 Sep 2018 16:41:21 +0200
+Subject: [PATCH] changing -rc to -thor_kernel
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 4d5c883a98e5..33acecf59c42 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 19
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc3
++EXTRAVERSION = -thor_kernel
+ NAME = Merciless Moray
+ 
+ # *DOCUMENTATION*
+-- 
+2.17.1
+
